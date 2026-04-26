@@ -1,0 +1,19 @@
+{
+  "name": "freerouter",
+  "version": "1.0.0",
+  "description": "Free, self-hosted AI model router — smart routing with your own API keys (OpenRouter alternative)",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/src/server.js",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npx tsx test/test-router.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
